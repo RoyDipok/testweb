@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section*/
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mainheader{
+    width: 80%;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainheader ul{
+    list-style: none;
+}
+.mainheader ul a{
+    text-decoration: none;
+}
+.mainheader ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 10px;
+    height: 30px;
+    padding: 0 10px;
+    text-align: center;
+    color: black;
+}
+.mainheader ul li:hover{
+    border-bottom: 1px solid rgb(120, 120, 245);
+    color: rgb(120, 120, 245);
+}
+
+/* main boday 1st section design */
+.section1{
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border-right: 1px solid rgb(199, 199, 199);
+    border-bottom: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+}
+.details{
+    width: 50%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileimage{
+    width: 50%;
+    height: 100%;
+}
+.contactDiv{
+    display: flex;
+    padding: 5px;
+}
+.profileimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: darkgray;
+    background-image: url(avater6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img2{
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    background-color: rgb(201, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+.img2:hover{
+    background-color: rgb(221, 219, 219);
+}
+.img3{
+    height: 280px;
+    width: 280px;
+    border-radius: 100%;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(197, 197, 197);
+    transition-duration: 0.3;
+}
+.img3:hover{
+    background-color: rgb(247, 247, 247);
+    box-shadow: 5px 5px 5px rgb(224, 224, 224);
+}
+
+/* skilssection design */
+
+.skilssection{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.skilsheader{
+    width: 100%;
+    padding: 0px 130px;
+    padding-top: 60px;
+}
+.headerSkil{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skilitemsection{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.skillitem{
+    width: 400px;
+    height: 220px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+}
+.profileItems{
+    width: 100%;
+    height:50px;
+    display: flex;
+}
+.img{
+    margin-right: 8px;
+}
+.divcolor1{
+    background-color: rgb(248, 156, 202);
+    box-shadow: 5px 5px 5px rgb(112, 89, 101);
+    transition-duration: 0.3s;
+}
+.divcolor1:hover{
+    background-color: rgb(255, 217, 236);
+    box-shadow: 5px 5px 5px rgb(204, 192, 198);
+}
+.divcolor2{
+    background-color: rgb(156, 162, 248);
+    box-shadow: 5px 5px 5px rgb(89, 93, 112);
+    transition-duration: 0.3s;
+}
+.divcolor2:hover{
+    background-color: rgb(196, 198, 226);
+    box-shadow: 5px 5px 5px rgb(182, 184, 197);
+}
+
+
+
+/* craditcardsection design */
+.craditcardsection{
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.cardHeader{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.rowmargin{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.cardabout{
+    background-color: rgb(240, 240, 240);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.carddiv{
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+
+/* form section design */
+.formsection{
+    margin-top: 100px;
+    height: 400px;
+    margin-bottom: 40px;
+}
+.formDiv{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(222, 250, 253);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(193, 234, 253);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.formheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.form-group{
+    margin: 30px 0;
+}
+.formsectionDiv{
+    width: 100%;
+    height: 230px;
+}
+.formbottom{
+    height: 70px;
+    width: 100%;
+}
+.creataccount{
+    text-decoration: none;
+    color: rgb(99, 99, 241);
+}
+
+
+/* footer */
+.footerDiv{
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+.footersection{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    transition-duration: 0.3s;
+}
+.footersection:hover{
+    box-shadow: 5px 5px 5px rgb(187, 187, 187);
+}
+.imgfooter{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.footerSocials{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 10px;
+}
+.footer-Ico{
+    color: rgb(105, 105, 247);
+    margin: 0 10px;
+    transition-duration: 0.3s;
+}
+.footer-Ico:hover{
+    color: rgb(138, 198, 255);
+}
